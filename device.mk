@@ -44,6 +44,9 @@ PRODUCT_PACKAGES += \
 
 LOCAL_KERNEL := device/lge/mako/kernel
 
+PRODUCT_COPY_FILES += \
+	device/lge/mako/charger:recovery/root/charger
+
 PRODUCT_COPY_FILES := \
 	$(LOCAL_KERNEL):kernel
 
