@@ -42,7 +42,7 @@ PRODUCT_PACKAGES += \
         VisualizationWallpapers \
         librs_jni
 
-LOCAL_KERNEL := device/lge/mako-kernel/kernel
+LOCAL_KERNEL := device/lge/mako/kernel
 
 PRODUCT_COPY_FILES := \
 	$(LOCAL_KERNEL):kernel
@@ -253,4 +253,4 @@ PRODUCT_COPY_FILES += \
 	system/extras/bugmailer/bugmailer.sh:system/bin/bugmailer.sh \
 	system/extras/bugmailer/send_bug:system/bin/send_bug
 
-$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+#$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
