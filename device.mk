@@ -28,6 +28,10 @@ DEVICE_PACKAGE_OVERLAYS := device/lge/mako/overlay
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+PRODUCT_COPY_FILES := \
+    device/lge/mako/kernel:kernel \
+    device/lge/mako/twrp.fstab:recovery/root/etc/twrp.fstab
+
 PRODUCT_PACKAGES := \
 	lights.mako
 
